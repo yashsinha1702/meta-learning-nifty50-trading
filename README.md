@@ -118,7 +118,8 @@ epochs (slide 6).
 │   └── archive/
 │       └── numin_v1_wip.ipynb      # earlier WIP version, with saved training log + equity curve
 ├── docs/
-│   ├── meta-learning-numin2-presentation.pdf   # project presentation (results, ablations)
+│   ├── meta-learning-numin2-presentation.pdf   # final project presentation (results, ablations)
+│   ├── meta-learning-numin2-interim-deck.pdf   # 6-slide interim progress deck (earlier numbers, superseded)
 │   └── figures/                    # charts extracted from the presentation
 ├── data/                           # put the Numin2 parquet files here (not committed)
 ├── requirements.txt
@@ -161,6 +162,11 @@ Notes:
 
 This was an assignment for a Meta & Transfer Learning course: apply meta-learning to the Numin2
 Nifty 50 dataset to produce daily buy / hold / sell signals, evaluated with the Numin2 backtester.
+
+The [interim progress deck](docs/meta-learning-numin2-interim-deck.pdf) shows the approach at the
+mid-point of the project. Its figures (e.g. "Best PnL 52.05 / Best Sharpe 1.89") come from earlier
+experiments whose outputs are not in this repo; the results above, from the
+[final presentation](docs/meta-learning-numin2-presentation.pdf), supersede them.
 
 ## License
 
