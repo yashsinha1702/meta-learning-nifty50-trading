@@ -1,0 +1,24 @@
+# Data (download with numin2, see README)
+data/*
+!data/.gitkeep
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Model checkpoints / outputs
+*.pt
+*.pth
+*.ckpt
+equity_curve*.png
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.bak

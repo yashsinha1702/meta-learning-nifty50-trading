@@ -1,0 +1,8 @@
+# Python >= 3.10 (required by numin2)
+numin2        # Numin2 API: data download + backtester
+torch
+numpy
+pandas
+fastparquet   # notebooks set pandas' parquet engine to fastparquet
+matplotlib    # used by the archived WIP notebook's equity-curve plot
+jupyter
